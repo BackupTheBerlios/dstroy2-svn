@@ -1,0 +1,48 @@
+DStroy 2
+========
+
+1. Introduction
+
+DStroy2 is the sequel of DStroy a bomberman clone written by FBS for MS-DOS.
+It is available for Linux and Windows and is developed in C using the SDL
+Library.
+
+Links:
+DStroy 1: http://les.bat.pages.free.fr/Pages/fun/jeux/dstroy/ds.html
+SDL: http://www.libsdl.org
+
+
+2. Installation
+
+./autogen --prefix=/usr (if you are using the SVN version)
+./configure --prefix=/usr (if you are using a release)
+make
+make install (as root)
+
+
+3. Usage
+
+dstroy (to run the normal version)
+dstroy -gl (to run the OpenGL version)
+
+
+4. Development
+
+The scrolling algorithm has been inspired by the parallax-4 and smoothscroll
+programs which have been devloped by David Olofson.
+
+Link:
+http://olofson.net/examples.html
+
+
+5. Contact
+
+If you are an artist, a developer or want to write the documentation, don't
+hesitate to contact me. And of course, even if you can't participate, I need
+your comments!
+
+
+---
+Benoit Walter, bwalter@users.berlios.de
+DStroy homepage: http://dstroy2.berlios.de
+
