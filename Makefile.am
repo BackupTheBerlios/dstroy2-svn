@@ -1,10 +1,6 @@
 SUBDIRS = src
 
 EXTRA_DIST = \
-    AUTHORS \
-    COPYING \
-    ChangeLog \
-    INSTALL \
+    LICENSE \
     README \
-    TODO
-
+    NEWS
